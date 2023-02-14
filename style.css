@@ -1,0 +1,61 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-size: 80px;
+  border-bottom: 5px solid black;
+  padding: 2%;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+#now {
+  font-weight: bold;
+}
+#underline {
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+}
+li {
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 10px;
+}
+ol {
+  border-right: 4px solid black;
+  width: 150px;
+  margin: 0px;
+  padding-top: 13%;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+}
+#grid #article {
+  margin-left: 35px;
+}
+@media (max-width: 800px) {
+  #grid {
+    display: inline;
+  }
+  ol {
+    border-right: none;
+  }
+}
+p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.light {
+  font-weight: 300;
+}
+.medium {
+  font-weight: 400;
+}
+.bold {
+  font-weight: 500;
+}
