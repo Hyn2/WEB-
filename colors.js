@@ -26,6 +26,7 @@ function nightDayHandler(self) {
     target3.style.borderRight = "5px solid white";
     setColor("white");
     self.value = "DAY";
+    document.button.style.background;
   } else {
     body.background("white");
     body.font("black");

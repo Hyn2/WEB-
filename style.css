@@ -63,3 +63,9 @@ p {
 #color {
   color: white;
 }
+
+#nightDayImg {
+  width: 120px;
+  height: 30px;
+  color: black;
+}
