@@ -59,3 +59,7 @@ p {
 .bold {
   font-weight: 500;
 }
+
+#color {
+  color: white;
+}
