@@ -25,11 +25,15 @@ li {
   font-family: "Josefin Sans", sans-serif;
   padding-bottom: 10px;
 }
-ol {
+ul {
   border-right: 4px solid black;
   width: 150px;
   margin: 0px;
   padding-top: 13%;
+  list-style: none;
+  text-align: right;
+  padding-right: 25px;
+  padding-left: 0;
 }
 #grid {
   display: grid;
@@ -65,7 +69,9 @@ p {
 }
 
 #nightDayImg {
-  width: 120px;
-  height: 30px;
-  color: black;
+  width: 150px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  float: right;
 }

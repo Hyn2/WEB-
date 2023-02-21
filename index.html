@@ -10,29 +10,45 @@
   />
   <link rel="stylesheet" href="style.css" />
   <script src="colors.js"></script>
+  <script src="lists.js"></script>
 </head>
 
 <body>
   <h1 class="bold">
     <a href="index.html">Storage</a>
   </h1>
-  <button
-    id="nightDayImg"
-    style="float: right"
-    type="button"
-    value="NIGHT"
-    onclick="nightDayHandler(this)"
-  ></button>
+  <button id="nightDayImg" value="NIGHT" onclick="nightDayHandler(this)">
+    <img src="NIGHT_NEW.png" />
+  </button>
   <div id="grid">
-    <ol class="medium">
-      <li><a href="1.html">HTML</a></li>
-      <li><a href="2.html">CSS</a></li>
-      <li><a href="3.html">JavaScript</a></li>
-    </ol>
+    <ul class="medium">
+      <li>
+        <a href="1.html"
+          ><script>
+            document.write(list[0]);
+          </script></a
+        >
+      </li>
+      <li>
+        <a href="2.html"
+          ><script>
+            document.write(list[1]);
+          </script></a
+        >
+      </li>
+      <li>
+        <a href="3.html"
+          ><script>
+            document.write(list[2]);
+          </script></a
+        >
+      </li>
+    </ul>
     <div id="article">
       <h2 class="medium">WELCOME</h2>
       <p class="light">
-        <a
+        このサイトは、私が好きなものの情報を込めている個人専用サイトです。
+        <!-- <a
           href="https://en.wikipedia.org/wiki/World_Wide_Web"
           target="_blank"
           title="WWW Wikipedia"
@@ -71,7 +87,7 @@
         the Internet.<br />
         The Web was invented by Tim Berners-Lee at CERN in 1989 and opened to
         the public in 1991.<br />
-        It was conceived as a "universal linked information system".<br />
+        It was conceived as a "universal linked information system".<br /> -->
       </p>
     </div>
   </div>

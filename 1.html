@@ -10,26 +10,42 @@
   />
   <link rel="stylesheet" href="style.css" />
   <script src="colors.js"></script>
+  <script src="lists.js"></script>
 </head>
 
 <body>
   <h1 class="bold">
     <a href="index.html">Storage</a>
   </h1>
-  <button
-    id="nightDayImg"
-    style="float: right"
-    type="button"
-    onclick="nightDayHandler(this)"
-  ></button>
+  <button id="nightDayImg" value="NIGHT" onclick="nightDayHandler(this)">
+    <img src="NIGHT_NEW.png" />
+  </button>
   <div id="grid">
-    <ol class="medium">
-      <li><a href="1.html" id="now">HTML</a></li>
-      <li><a href="2.html">CSS</a></li>
-      <li><a href="3.html">JavaScript</a></li>
-    </ol>
+    <ul class="medium">
+      <li>
+        <a href="1.html"
+          ><script>
+            document.write(list[0]);
+          </script></a
+        >
+      </li>
+      <li>
+        <a href="2.html"
+          ><script>
+            document.write(list[1]);
+          </script></a
+        >
+      </li>
+      <li>
+        <a href="3.html"
+          ><script>
+            document.write(list[2]);
+          </script></a
+        >
+      </li>
+    </ul>
     <div id="article">
-      <h2><a href="1.html">HTML</a></h2>
+      <h2><a href="1.html">Music</a></h2>
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
         width="10%"
